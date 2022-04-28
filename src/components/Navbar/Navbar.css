@@ -1,0 +1,80 @@
+.navbar{
+    padding: 15px 0;
+}
+.navbar-links{
+    font-size: 30px;
+    padding-left: 15px;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.navbar-item{
+    padding: 6px;
+    margin: 0px 15px;
+    color: blueviolet;
+}
+.navbar-logo{
+    border: none;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin: 0px 15px;
+    transition: 0.3s;
+    
+}
+.navbar-link{
+    padding:10px 15px;
+    font-size: 18px;
+    line-height: 35px;
+    transition: 0.6s;
+    display: inline-block;
+}
+.navbar-link:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: scale(0.85);
+}
+.navbar-right{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-btn{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid blueviolet;
+    padding: 10px 25px;
+    margin: 0px 15px;
+}
+.navbar-btn:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.navbar-logo:hover{
+    transform: scale(1.5);
+}
