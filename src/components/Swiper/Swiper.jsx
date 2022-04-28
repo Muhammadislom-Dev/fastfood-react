@@ -1,6 +1,6 @@
 import './Swiper.css'
 
-const Swiper = () =>{
+const Swiper=() =>{
     return(
         <div className="swiper">
             <div className="container-fluid">
