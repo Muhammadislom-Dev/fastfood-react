@@ -1,5 +1,11 @@
 .navbar{
-    padding: 15px 0;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
 }
 .navbar-links{
     font-size: 30px;

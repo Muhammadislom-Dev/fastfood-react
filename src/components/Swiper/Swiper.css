@@ -19,7 +19,7 @@ img{
     width: 90%;
     height: 150px;
     z-index:-1;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .container-fluid{
@@ -29,4 +29,7 @@ img{
 
 .swipers{
     z-index: -11;
+}
+.swiper{
+    margin-top: 40px;
 }
