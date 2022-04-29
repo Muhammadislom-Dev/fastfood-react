@@ -1,0 +1,23 @@
+.sidebar{
+    background-color: #8a2be2;
+    margin: 25px 0;
+    padding: 10px;
+}
+.sidebar-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.sidebar-link{
+    color: white;
+    padding: 15px 15px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.sidebar-link:hover{
+    background-color: white;
+    color: blueviolet;
+    transform: scale(0.85);
+    font-weight: 500;
+}
