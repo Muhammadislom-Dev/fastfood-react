@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
-import {Provider} from './context/orderFood'
+import {Provider} from './context/orderFoods'
 
  ReactDOM.render(
   <React.StrictMode>

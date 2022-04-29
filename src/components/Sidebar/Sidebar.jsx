@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Sidebar.css'
 
 const Sidebar = () =>{
@@ -7,64 +7,64 @@ const Sidebar = () =>{
             <div className="container">
                 <ul className=" sidebar-list">
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link'  to="/">
                           Lavash
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to='/desert'>
                           Desert
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/set">
                           Set
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/cold-dishes">
                           Xaggi
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/hot-dishes">
                           Burger
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to='/pizza'>
                            Pizza
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/desert">
                           Sendvich
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/grill">
                           Donar
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/soup">
                            Xot-Dog
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/hot-dishes" >
                           Free
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/grill">
                           Grill
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="sidebar-item">
-                        <NavLink className='sidebar-link'>
+                        <Link className='sidebar-link' to="/soup">
                            Sauce
-                        </NavLink>
+                        </Link>
                     </li>
                 </ul>
             </div>
