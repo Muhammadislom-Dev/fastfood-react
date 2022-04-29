@@ -1,72 +1,72 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Sidebar.css'
 
 const Sidebar = () =>{
     return(
         <div className="sidebar">
             <div className="container">
-                <div className="ul sidebar-list">
+                <ul className=" sidebar-list">
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Lavash
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Desert
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Set
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Xaggi
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Burger
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                            Pizza
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Sendvich
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Donar
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                            Xot-Dog
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
+                        <NavLink className='sidebar-link'>
                           Free
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
-                          Drink
-                        </Link>
+                        <NavLink className='sidebar-link'>
+                          Grill
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'>
-                          Salad
-                        </Link>
+                        <NavLink className='sidebar-link'>
+                           Sauce
+                        </NavLink>
                     </li>
-                </div>
+                </ul>
             </div>
         </div>
     )

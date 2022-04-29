@@ -21,3 +21,12 @@
     transform: scale(0.85);
     font-weight: 500;
 }
+
+/* .category .nested-links__link-active {
+    color:blueviolet;
+    background-color: white;
+  }
+  
+  .category .nested-links__link-active::before {
+    display: inline-block;
+  } */
