@@ -62,7 +62,7 @@ const foods = [
         title: "Soulful Chicken Soup",
         price: 4.9,
         available: 20,
-        type: 'soup',
+        type: 'pizza',
     },
     {
         id:6,
@@ -78,7 +78,7 @@ const foods = [
         title: "Soulful Chicken Soup",
         price: 11.2,
         available: 20,
-        type: 'soup',
+        type: 'pizza',
     },
     {
         id:8,
@@ -86,7 +86,7 @@ const foods = [
         title: "Smoky Ham and  Pea Soup",
         price: 23.5,
         available: 20,
-        type: 'soup',
+        type: 'set',
     },
     {
         id:9,
@@ -314,3 +314,5 @@ const foods = [
     },
 
 ]
+
+export default foods

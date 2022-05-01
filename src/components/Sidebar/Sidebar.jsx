@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Sidebar.css'
 
 const Sidebar = () =>{
@@ -7,64 +7,64 @@ const Sidebar = () =>{
             <div className="container">
                 <ul className=" sidebar-list">
                     <li className="sidebar-item">
-                        <Link className='sidebar-link'  to="/">
+                        <NavLink className='sidebar-link'  to="/" exact>
                           Lavash
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to='/desert'>
+                        <NavLink className='sidebar-link' to='/desert'>
                           Desert
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/set">
+                        <NavLink className='sidebar-link' to="/set">
                           Set
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/cold-dishes">
+                        <NavLink className='sidebar-link' to="/cold-dishes">
                           Xaggi
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/hot-dishes">
+                        <NavLink className='sidebar-link' to="/hot-dishes">
                           Burger
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to='/pizza'>
+                        <NavLink className='sidebar-link' to='/pizza'>
                            Pizza
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/desert">
+                        <NavLink className='sidebar-link' to="/desert">
                           Sendvich
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/grill">
+                        <NavLink className='sidebar-link' to="/grill">
                           Donar
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/soup">
+                        <NavLink className='sidebar-link' to="/soup">
                            Xot-Dog
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/hot-dishes" >
+                        <NavLink className='sidebar-link' to="/hot-dishes" >
                           Free
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/grill">
+                        <NavLink className='sidebar-link' to="/grill">
                           Grill
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="sidebar-item">
-                        <Link className='sidebar-link' to="/soup">
+                        <NavLink className='sidebar-link' to="/soup">
                            Sauce
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </div>

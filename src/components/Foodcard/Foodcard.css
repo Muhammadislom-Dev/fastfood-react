@@ -1,0 +1,55 @@
+.foods {
+    padding: 20px 0;
+}
+
+.foods-img {
+    width: 236px;
+    height: 180px;
+}
+
+.foods-list {
+    padding: 10px 12px;
+    width: 23%;
+    max-height: 360px;
+    margin: 15px 4px;
+    box-shadow: 0 4px 10px rgb(0 0 0 /30%);
+    transition: 0.3s;
+    border-radius: 12px;
+    cursor: pointer;
+ 
+    padding-bottom: 18px;
+}
+
+.foods-list:hover {
+    transform: scale(0.92);
+}
+
+.foods-title {
+    padding-top: 10px;
+    white-space: wrap; 
+  
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  min-height: 55px;
+}
+
+.foods-text {
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 24px;
+    color: rgb(182, 178, 178);
+    white-space: wrap; 
+  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.foods-item:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.foods-item:nth-child(4),.foods-item:nth-child(3), .foods-item:nth-child(2){
+    max-height: 65px;
+}
