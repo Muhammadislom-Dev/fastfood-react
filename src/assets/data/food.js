@@ -94,7 +94,7 @@ const foods = [
         title: "Mixed berry mousse",
         price:  7.9,
         available: 20,
-        type: 'dessert',
+        type: 'desert',
     },
     {
         id:10,
@@ -102,7 +102,7 @@ const foods = [
         title: "Mango and coconut soufflé",
         price: 3.45,
         available: 20,
-        type: 'dessert',
+        type: 'desert',
     },
     {
         id:11,
@@ -110,7 +110,7 @@ const foods = [
         title: "Homemade carrot cake",
         price: 14,
         available: 20,
-        type: 'dessert',
+        type: 'set',
     },
     {
         id:12,
@@ -118,7 +118,7 @@ const foods = [
         title: "Vegan chocolate cake",
         price: 8,
         available: 20,
-        type: 'dessert',
+        type: 'desert',
     },
     {
         id:13,
@@ -126,7 +126,7 @@ const foods = [
         title: "Praline and ganache cake",
         price: 11.8,
         available: 20,
-        type: 'dessert',
+        type: 'desert',
     },
     {
         id:14,
@@ -134,7 +134,7 @@ const foods = [
         title: "XL lemon meringue pie",
         price: 5,
         available: 20,
-        type: 'dessert',
+        type: 'desert',
     },
     {
         id:15,
@@ -150,7 +150,7 @@ const foods = [
         title: "Salted Pasta with mushroom sauce",
         price: 14.5,
         available: 20,
-        type: 'hot-dishes'
+        type: 'cold-dishes'
     },
     {
         id:17,
@@ -158,7 +158,7 @@ const foods = [
         title: "Salted Pasta with mushroom sauce",
         price: 12,
         available: 20,
-        type: 'hot-dishes'
+        type: 'cold-dishes'
     },
     {
         id:18,
@@ -174,7 +174,7 @@ const foods = [
         title: "Ribye",
         price: 13,
         available: 10,
-        type: 'grill'
+        type: 'set'
     },
     {
         id:20,
@@ -214,7 +214,7 @@ const foods = [
         title: "Tuna Steak",
         price: 18,
         available: 4,
-        type: 'grill'
+        type: 'set'
     },
     {
         id:25,
