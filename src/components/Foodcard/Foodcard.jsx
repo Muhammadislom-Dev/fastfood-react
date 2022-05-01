@@ -3,8 +3,7 @@ import './Foodcard.css'
 const Foodcard = ({id,img,title,price,available
 ,onClick}) =>{
 return(
-<div className="foodcard">
-    <div className="container">
+
         <ul className="foods-list" key={id}>
             <li className="foods-item">
                 <img src={img} alt="" className="foods-img" />
@@ -26,8 +25,7 @@ return(
 
             </li>
         </ul>
-    </div>
-</div>
+  
 )
 }
 export default Foodcard
