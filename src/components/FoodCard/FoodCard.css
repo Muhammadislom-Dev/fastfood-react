@@ -1,0 +1,23 @@
+.foodcard-page{
+    width: 260px;
+    height: 290px;
+    margin: 20px;
+}
+.foodcard-item, .foodcard-price, .foodcard-available{
+    height: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: 'Hubballi', cursive;
+}
+.foodcard-list{
+    list-style-type: none;
+    padding: 20px;
+    margin: 17px;
+    background: #1F1D2B;
+    border-radius: 16px;
+}
+.foodcard-available{
+    color: #ABBBC2;
+}
