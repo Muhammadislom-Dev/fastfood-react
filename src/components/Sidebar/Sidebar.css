@@ -30,3 +30,11 @@
   .category .nested-links__link-active::before {
     display: inline-block;
   } */
+
+  .sidebar-links{
+    color:blueviolet;
+    background-color: white;
+  }
+  .sidebar-links::before{
+      display: inline-block;
+  }

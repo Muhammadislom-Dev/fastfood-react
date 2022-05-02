@@ -17,6 +17,13 @@ import food18 from '../img/food18.jpg'
 import food19 from '../img/food19.jpg'
 import food20 from '../img/food20.jpg'
 import food21 from '../img/food21.jpg'
+import food22 from '../img/img22.jpg'
+import food23 from '../img/img23.jpg'
+import food24 from '../img/img24.jpg'
+import food25 from '../img/img25.png'
+import food26 from '../img/img26.jpg'
+import food27 from '../img/img27.jpg'
+import food29 from '../img/img29.jpg'
 import sweat1 from '../img/sweat1.jpg'
 import sweat2 from '../img/sweat2.jpg'
 import sweat3 from '../img/sweat3.jpg'
@@ -110,7 +117,7 @@ const foods = [
         title: "Homemade carrot cake",
         price: 14,
         available: 20,
-        type: 'set',
+        type: 'desert',
     },
     {
         id:12,
@@ -286,7 +293,7 @@ const foods = [
         title: "Salted Pasta  sauce",
         price: 6,
         available: 16,
-        type: 'cold'
+        type: 'cold-dishes'
     },
     {
         id:34,
@@ -302,7 +309,7 @@ const foods = [
         title: "Grilled Kielbasa Tacos",
         price: 9,
         available: 11,
-        type: 'cold'
+        type: 'cold-dishes'
     },
     {
         id:36,
@@ -312,7 +319,70 @@ const foods = [
         available: 3,
         type: 'cold'
     },
-
+    {
+        id:37,
+        img: food21,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold'
+    },
+    {
+        id:38,
+        img: food22,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold'
+    },
+    {
+        id:38,
+        img: food23,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold'
+    },
+    {
+        id:38,
+        img: food24,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold'
+    },
+    {
+        id:38,
+        img: food25,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold'
+    },
+    {
+        id:38,
+        img: food26,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'soup'
+    },
+    {
+        id:38,
+        img: food27,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'cold-dishes'
+    },
+    {
+        id:38,
+        img: food29,
+        title: "New York Strip",
+        price: 52,
+        available: 3,
+        type: 'soup'
+    },
 ]
 
 export default foods
