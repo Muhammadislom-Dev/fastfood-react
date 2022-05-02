@@ -29,6 +29,12 @@ import sweat2 from '../img/sweat2.jpg'
 import sweat3 from '../img/sweat3.jpg'
 import sweat4 from '../img/sweat4.jpg'
 import sweat5 from '../img/sweat5.jpg'
+import drink1 from '../img/drink1.webp'
+import drink2 from '../img/drink2.webp'
+import drink3 from '../img/drink3.webp'
+import drink4 from '../img/drink4.webp'
+import drink5 from '../img/drink5.webp'
+import drink6 from '../img/drink6.webp'
 
 const foods = [
     {
@@ -382,6 +388,54 @@ const foods = [
         price: 52,
         available: 3,
         type: 'soup'
+    },
+    {
+        id:39,
+        img:drink1,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
+    },
+    {
+        id:39,
+        img:drink2,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
+    },
+    {
+        id:39,
+        img:drink3,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
+    },
+    {
+        id:39,
+        img:drink4,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
+    },
+    {
+        id:39,
+        img:drink5,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
+    },
+    {
+        id:39,
+        img:drink6,
+        title: "Shampan Italy",
+        price: 25,
+        available: 15,
+        type: "drink"
     },
 ]
 
