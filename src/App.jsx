@@ -23,11 +23,14 @@ function App() {
            <Route path="/filialcard" exact>
                <Sublime />
            </Route>
+           <Route path="/footer" exact>
+              <Footer />
+           </Route>          
            <Route path='/' >
               <Homepage />
-           </Route>          
+           </Route>
         </Switch>
-        <Footer />
+        
 
     </div>
   );
