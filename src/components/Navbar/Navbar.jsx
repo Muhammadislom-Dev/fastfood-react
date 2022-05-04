@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () =>{
 
+    const handleAddClass = (evt) =>{
+        const links = document.querySelectorAll('.sidebar__link-active');
+        links.forEach(link =>{
+        link.classList.remove('sidebar__link-active')
+        })
+        evt.currentTarget.classList.add('sidebar__link-active')
+        }
+
     return(
         <div className="navbar">
             <div className="container">
@@ -13,22 +21,22 @@ const Navbar = () =>{
                     </Link>
                     <ul className="navbar-list">
                         <li className="navbar-item">
-                            <Link className='navbar-link'>
+                            <Link onClick={handleAddClass}  className='navbar-link' to="/">
                                Главная
                             </Link>
                         </li>
                         <li className="navbar-item">
-                            <Link className='navbar-link'>
+                            <Link onClick={handleAddClass} className='navbar-link' to="/home">
                                Филиалы
                             </Link>
                         </li>
                         <li className="navbar-item">
-                            <Link className='navbar-link'>
+                            <Link onClick={handleAddClass} className='navbar-link' to="/about">
                                О нас
                             </Link>
                         </li>
                         <li className="navbar-item">
-                            <Link className='navbar-link'>
+                            <Link onClick={handleAddClass} className='navbar-link' to="/footer">
                                Контакты
                             </Link>
                         </li>
