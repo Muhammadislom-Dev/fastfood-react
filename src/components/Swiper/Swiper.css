@@ -1,5 +1,4 @@
 img{
-    /* width: 50px; */
     z-index:-1;
 }
 
@@ -19,7 +18,6 @@ img{
     width: 90%;
     height: 150px;
     z-index:-1;
-    /* margin-top: 15px; */
 }
 
 .container-fluid{

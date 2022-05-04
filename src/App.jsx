@@ -3,6 +3,8 @@ import Homepage from './Page/HomePage/HomePage';
 import Navbar from './components/Navbar/Navbar'
 import {Route, Switch} from 'react-router-dom'
 import Aboutpage from './Page/AboutPage/AboutPage';
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
@@ -10,13 +12,15 @@ function App() {
     <div className="App">
          <Navbar />
         <Switch>
-           <Route path='/' exact>
-              <Homepage />
-           </Route>
            <Route path="/about">
               <Aboutpage />
            </Route>
+           <Route path='/' >
+              <Homepage />
+           </Route>
         </Switch>
+        <Footer />
+
     </div>
   );
 }

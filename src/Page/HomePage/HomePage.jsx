@@ -1,7 +1,8 @@
-import Footer from "../../components/Footer/Footer"
+import { Switch, Route } from "react-router-dom"
 import SwiperFood from "../../components/Swiper/Swiper"
 import Sidebar from "../../components/Sidebar/Sidebar"
-import Home from "../Home/Home"
+import HomeContent from '../../components/HomeContent/HomeContent'
+
 
 
 const Homepage = () =>{
@@ -9,8 +10,14 @@ const Homepage = () =>{
         <div className="homepage">      
             <SwiperFood />
             <Sidebar />
-            <Home />
-            <Footer />      
+            <Switch> 
+                <Route path="/:dishtype">
+                    <HomeContent />
+                </Route>
+                <Route path="/" exact>
+                   <HomeContent />
+                </Route>
+            </Switch>      
         </div>
     )
 }

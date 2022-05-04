@@ -85,3 +85,8 @@
 .navbar-logo:hover{
     transform: scale(1.5);
 }
+
+.navbar__link-active{
+    background-color: blueviolet;
+    color: #fff;
+}
