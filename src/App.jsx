@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import {Route, Switch} from 'react-router-dom'
 import Aboutpage from './Page/AboutPage/AboutPage';
 import Footer from './components/Footer/Footer';
+import Filialcard from './Page/Filialcard/Filialcard';
 
 
 
@@ -15,10 +16,12 @@ function App() {
            <Route path="/about">
               <Aboutpage />
            </Route>
+           <Route path="/home">
+               <Filialcard />
+           </Route>
            <Route path='/' >
               <Homepage />
-           </Route>
-           
+           </Route>          
         </Switch>
         <Footer />
 
