@@ -18,6 +18,7 @@ function App() {
            <Route path='/' >
               <Homepage />
            </Route>
+           
         </Switch>
         <Footer />
 
