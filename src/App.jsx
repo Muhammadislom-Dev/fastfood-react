@@ -5,6 +5,7 @@ import {Route, Switch} from 'react-router-dom'
 import Aboutpage from './Page/AboutPage/AboutPage';
 import Footer from './components/Footer/Footer';
 import Filialcard from './Page/Filialcard/Filialcard';
+import Sublime from './Page/Sublime/Sublime';
 
 
 
@@ -13,11 +14,14 @@ function App() {
     <div className="App">
          <Navbar />
         <Switch>
-           <Route path="/about">
+           <Route path="/about" exact>
               <Aboutpage />
            </Route>
-           <Route path="/home">
+           <Route path="/home" exact>
                <Filialcard />
+           </Route>
+           <Route path="/filialcard" exact>
+               <Sublime />
            </Route>
            <Route path='/' >
               <Homepage />
