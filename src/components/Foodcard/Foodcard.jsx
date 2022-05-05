@@ -1,5 +1,7 @@
 import './Foodcard.css'
 
+import '../HomeContent/HomeContent.css'
+
 const Foodcard = ({id,img,title,price,available
 ,onClick}) =>{
 return(

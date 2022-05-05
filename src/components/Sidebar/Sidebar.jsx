@@ -66,11 +66,6 @@ const Sidebar = () =>{
                            Sauce
                         </NavLink>
                     </li>
-                    {/* <li className="sidebar-item">
-                        <NavLink activeClassName='sidebar-links' className='sidebar-link'  to="/drink">
-                           Drink
-                        </NavLink>
-                    </li> */}
                 </ul>
             </div>
         </div>

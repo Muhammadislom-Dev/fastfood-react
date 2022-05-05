@@ -3,13 +3,13 @@
 }
 
 .foods-img {
-    width: 250px;
+    width: 240px;
     height: 180px;
 }
 
 .foods-list {
     padding: 10px 12px;
-    width: 24%;
+    width: 23%;
     max-height: 360px;
     margin: 15px 4px;
     box-shadow: 0 4px 10px rgb(0 0 0 /30%);
@@ -66,4 +66,14 @@
     color: blueviolet;
     border: 2px solid blueviolet;
     transform: scale(0.9)
+}
+
+@media (max-width:1160px) {
+    
+    .container{
+        width: 1000px;
+    }
+    .foods-img{
+        width: 205px;
+    }
 }

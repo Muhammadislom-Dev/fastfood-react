@@ -242,3 +242,10 @@
     font-size: 10px;
     margin-left: 10px;
 }
+
+@media (max-width:1160px) {
+    
+    .container{
+        width: 1000px;
+    }
+}

@@ -22,19 +22,17 @@
     font-weight: 500;
 }
 
-/* .category .nested-links__link-active {
+.sidebar-links{
     color:blueviolet;
     background-color: white;
   }
-  
-  .category .nested-links__link-active::before {
-    display: inline-block;
-  } */
-
-  .sidebar-links{
-    color:blueviolet;
-    background-color: white;
-  }
-  .sidebar-links::before{
+.sidebar-links::before{
       display: inline-block;
   }
+
+@media (max-width:1160px) {
+    
+    .container{
+        width: 1000px;
+    }
+}
