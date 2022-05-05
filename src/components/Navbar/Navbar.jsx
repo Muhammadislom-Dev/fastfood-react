@@ -12,10 +12,11 @@ import { useContext, useState } from 'react'
 const Navbar = () =>{
     let [count, setCount] = useState(1);
     const {orderFoods,setOrderFoods} = useContext(Context);
-    // const [loginModal,setLoginModal] = useState(false)
+    const [loginModal,setLoginModal] = useState(false)
     const [korzinkaModal, setKorzinkaModal]=useState(false);
-    // const [deleteKorzinkaModal,setDeleteKorzinkaModal]=useState(false);
+    const [deleteKorzinkaModal,setDeleteKorzinkaModal]=useState(false);
 
+    
     const handleAddClass = (evt) =>{
         const links = document.querySelectorAll('.navbar__link-active');
         links.forEach(link =>{
@@ -34,22 +35,21 @@ const Navbar = () =>{
              } count=count - 1; 
              setCount(count); 
             } 
-
+        
             function openKorzinkaModal(){
                 setKorzinkaModal(!korzinkaModal);
          }
-
-        //  function openDeleteKorzinkaModal(){ 
-        //     setDeleteKorzinkaModal(!deleteKorzinkaModal)
-        //    }
-       
-        //    function openLoginModal(){
-        //        setLoginModal(!loginModal);
-        //    }
-        //    const [registerModal,setRegisterModal] = useState(false);
-        //    function openRegisterModal(){
-        //        setRegisterModal(!registerModal)
-        //    }
+            function openDeleteKorzinkaModal(){ 
+             setDeleteKorzinkaModal(!deleteKorzinkaModal)
+            }
+        
+            function openLoginModal(){
+                setLoginModal(!loginModal);
+            }
+            const [registerModal,setRegisterModal] = useState(false);
+            function openRegisterModal(){
+                setRegisterModal(!registerModal)
+            }
 
     return(
         <div className="navbar">
@@ -92,7 +92,7 @@ const Navbar = () =>{
                 </div>
             </div>
 
-            <Modal className="modal" show={korzinkaModal} w={800} mh={400}>
+            <Modal className="modal" show={korzinkaModal} w={800} mh={400} >
             <button className="close-btn" onClick={()=>setKorzinkaModal()}>
                 <IoCloseOutline />
             </button>
