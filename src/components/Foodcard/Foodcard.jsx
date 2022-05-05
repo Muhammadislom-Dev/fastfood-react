@@ -22,7 +22,7 @@ return(
                 <span>
                     {price} сум
                 </span>
-
+                
             </li>
         </ul>
   

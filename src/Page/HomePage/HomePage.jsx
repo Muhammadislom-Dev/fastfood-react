@@ -19,7 +19,7 @@ const Homepage = () =>{
                    <HomeContent />
                 </Route>
             </Switch> 
-            <Footer />     
+            {/* <Footer />      */}
         </div>
     )
 }

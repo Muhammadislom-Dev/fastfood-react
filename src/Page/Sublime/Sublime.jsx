@@ -7,7 +7,7 @@ const Sublime = () =>{
         <div className="sublime">
             <div className="container">
                 <Section />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </div>
     )

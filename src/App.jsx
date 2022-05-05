@@ -24,13 +24,13 @@ function App() {
                <Sublime />
            </Route>
            <Route path="/footer" exact>
-              <Footer />
+              //
            </Route>          
            <Route path='/' >
               <Homepage />
            </Route>
         </Switch>
-        
+        <Footer />
 
     </div>
   );
