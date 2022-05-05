@@ -22,7 +22,9 @@ return(
                 <span>
                     {price} сум
                 </span>
-                
+                <button className="foods-btn" onClick={onClick}>
+                Заказать
+                </button>
             </li>
         </ul>
   

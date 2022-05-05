@@ -86,7 +86,7 @@ const Navbar = () =>{
                         <Bscard />
                         {orderFoods.length > 0 && (
                         <p>{orderFoods.map((food)=>
-                        (<span>{food.count}</span>))}</p>)}
+                        (<span className='navbar-span'>{food.count}</span>))}</p>)}
                     </button>
                     <button className="navbar-btn">Войти</button>
                 </div>

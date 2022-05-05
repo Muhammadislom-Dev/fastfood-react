@@ -38,14 +38,9 @@
     margin: 0px 15px;
     color: blueviolet;
 }
-.navbar-logo{
-    border: none;
-    background-color: transparent;
-    padding: 10px 25px;
-    margin: 0px 15px;
-    transition: 0.3s;
-    
-}
+
+
+
 .navbar-link{
     padding:10px 15px;
     font-size: 18px;
@@ -82,9 +77,6 @@
     cursor: pointer;
 }
 
-.navbar-logo:hover{
-    transform: scale(1.5);
-}
 
 .navbar__link-active{
     background-color: blueviolet;
@@ -104,7 +96,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-direction: column; */
     margin: 8px 0;
     padding: 4px 0;
     
@@ -154,13 +145,11 @@
 }
 
 .modal-title{
-    width: 210px;
+    width: 230px;
     white-space: wrap; 
-  
-  overflow: hidden;
-  text-overflow: ellipsis; 
-  max-height: 40px;
-  
+    max-height: 20px;
+    color: #51267d;
+    font-size: 18px;
 }
 .modal-count{
     width: 20px;
@@ -168,7 +157,8 @@
 .modal-price{
     width: 100px;
     color: #51267d;
-    
+    font-size: 18px;
+    padding-top: 15px;
 }
 .modal-btn{
     width: 20px;
@@ -213,4 +203,42 @@
     height: 30px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.navbar-logo{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: 20px;
+    padding-right: 75px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.navbar-logo:hover{
+    transform: scale(1.3);
+}
+
+.navbar-logo p{
+    position: absolute;
+    top: -45%;
+    left: -10%;
+    transform: translate(90%,20%);
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    padding: 8px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-span{
+    font-size: 10px;
+    margin-left: 10px;
 }

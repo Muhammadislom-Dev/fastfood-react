@@ -52,3 +52,18 @@
 .foods-item:nth-child(4),.foods-item:nth-child(3), .foods-item:nth-child(2){
     max-height: 65px;
 }
+
+.foods-btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 15px;
+    transition: 1s;
+    cursor: pointer;
+    border: 2px solid blueviolet;
+}
+.foods-btn:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    transform: scale(0.9)
+}
