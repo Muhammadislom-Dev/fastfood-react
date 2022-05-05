@@ -77,3 +77,27 @@
         width: 205px;
     }
 }
+
+@media (max-width:1020px) {
+    
+    .container{
+        width: 900px;
+    }
+
+    .foods-list{
+        width: 32%;
+    }
+    .foods-img{
+        width: 265px;
+    }
+}
+
+@media (max-width:920px) {
+    
+    .container{
+        width: 800px;
+    }
+    .foods-img{
+        width: 230px;
+    }
+}

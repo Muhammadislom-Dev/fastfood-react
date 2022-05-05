@@ -76,3 +76,17 @@ h4{
         width: 1000px;
     }
 }
+
+@media (max-width:1020px) {
+    
+    .container{
+        width: 900px;
+    }
+}
+
+@media (max-width:920px) {
+    
+    .container{
+        width: 800px;
+    }
+}

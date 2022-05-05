@@ -26,3 +26,32 @@
 h2{
     margin-top: 15px;
 }
+
+@media (max-width:1160px) {
+    
+    .container{
+        width: 1000px;
+    }
+    .company-text{
+        padding-right: 0;
+    }
+    
+}
+
+@media (max-width:1020px) {
+    
+    .container{
+        width: 900px;
+    }
+}
+
+@media (max-width:920px) {
+    
+    .container{
+        width: 800px;
+    }
+    .company-page{
+        margin: 30px;
+    }
+    
+}

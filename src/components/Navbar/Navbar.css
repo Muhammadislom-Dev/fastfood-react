@@ -249,3 +249,31 @@
         width: 1000px;
     }
 }
+@media (max-width:1020px) {
+    
+    .container{
+        width: 900px;
+    }
+
+    .navbar-item{
+        margin: 0px 10px;
+    }
+
+    .navbar-logo{
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width:920px) {
+    
+    .container{
+        width: 800px;
+    }
+    .navbar-item{
+        margin: 0 5px;
+    }
+    .navbar-link{
+        padding:10px 10px;
+    }
+}
