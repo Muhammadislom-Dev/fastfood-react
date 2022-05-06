@@ -24,3 +24,10 @@
         width: 800px;
     }
 }
+
+@media (max-width:820px) {
+    
+    .container{
+        width: 700px;
+    }
+}

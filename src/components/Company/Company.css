@@ -53,5 +53,11 @@ h2{
     .company-page{
         margin: 30px;
     }
+}
+
+@media (max-width:820px) {
     
+    .container{
+        width: 700px;
+    }
 }
