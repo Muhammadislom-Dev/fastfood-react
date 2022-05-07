@@ -293,3 +293,17 @@
         line-height: 25px;
     }
 }
+
+@media (max-width:720px) {
+    
+    .container{
+        width: 600px;
+    }
+
+    .navbar-list{
+        display: none;
+    }
+    .navbar-left, .navbar-right{
+        padding: 10px;
+    }
+}

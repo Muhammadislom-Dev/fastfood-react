@@ -97,3 +97,25 @@ h4{
         width: 700px;
     }
 }
+
+@media (max-width:720px) {
+    
+    .container{
+        width: 600px;
+    }
+
+    .footer-page{
+        flex-wrap: wrap;
+    }
+
+    .footer-list{
+        width: 45%;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        padding: 10px;
+    }
+}
