@@ -26,7 +26,6 @@
 .foods-title {
     padding-top: 10px;
     white-space: wrap; 
-  
   overflow: hidden;
   text-overflow: ellipsis; 
   min-height: 55px;
@@ -123,11 +122,17 @@
     }
 
     .foods-list{
-        width: 40%;
+        width: 43%;
     }
 
     .foods-img{
-        width: 255px;
-    }
+        width: 235px;
+    }   
+}
+
+@media (max-width:620px) {
     
+    .container{
+        width: 500px;
+    }
 }
