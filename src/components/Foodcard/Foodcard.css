@@ -10,7 +10,7 @@
 .foods-list {
     padding: 10px 12px;
     width: 23%;
-    max-height: 360px;
+    max-height: 380px;
     margin: 15px 4px;
     box-shadow: 0 4px 10px rgb(0 0 0 /30%);
     transition: 0.3s;
@@ -134,5 +134,13 @@
     
     .container{
         width: 500px;
+    }
+
+    .foods-list{
+        width: 80%;
+    }
+    .foods-img{
+        width: 380px;
+        height: 200px;
     }
 }

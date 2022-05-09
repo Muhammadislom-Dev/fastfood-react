@@ -30,7 +30,7 @@
 }
 
 .footer-box{
-    /* border-top: 3px solid #fff; */
+    border-top: 3px solid #fff;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
