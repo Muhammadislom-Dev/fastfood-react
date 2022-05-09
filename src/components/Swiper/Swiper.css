@@ -76,3 +76,10 @@ img{
         display:none;
     }
 }
+
+@media (max-width:520px) {
+    
+    .container{
+        width: 400px;
+    }
+}

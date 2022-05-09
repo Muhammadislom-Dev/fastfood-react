@@ -144,4 +144,8 @@ h4{
     .container{
         width: 400px;
     }
+
+    .footer-items{
+        width: 250px;
+    }
 }

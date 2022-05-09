@@ -56,3 +56,10 @@
         width: 500px;
     }
 }
+
+@media (max-width:520px) {
+    
+    .container{
+        width: 400px;
+    }
+}

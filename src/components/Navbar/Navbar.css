@@ -346,3 +346,14 @@
         width: 440px;
     }
 }
+
+@media (max-width:520px) {
+    
+    .container{
+        width: 400px;
+    }
+
+    .modal{
+        width: 450px;
+    }
+}

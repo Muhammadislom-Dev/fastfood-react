@@ -61,3 +61,20 @@ h2{
         width: 700px;
     }
 }
+
+@media (max-width:720px) {
+    
+    .container{
+        width: 600px;
+    }
+    .company-img{
+        height: 300px;
+    }
+}
+
+@media (max-width:520px) {
+    
+    .container{
+        width: 400px;
+    }
+}
