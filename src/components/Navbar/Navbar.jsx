@@ -92,7 +92,7 @@ const Navbar = () =>{
                 </div>
             </div>
 
-            <Modal className="modal" show={korzinkaModal} w={800} mh={400} >
+            <Modal className="modal" show={korzinkaModal}  >
             <button className="close-btn" onClick={()=>setKorzinkaModal()}>
                 <IoCloseOutline />
             </button>

@@ -86,6 +86,8 @@
 
 .modal{
     position: relative;
+    width: 800px;
+    height: 400px;
 }
 
 .modal-box{
@@ -292,6 +294,14 @@
         font-size: 16px;
         line-height: 25px;
     }
+
+    .modal{
+        width:700px;
+        height: 370px;
+    }
+    .navbar .container{
+        justify-content: space-between;
+    }
 }
 
 @media (max-width:720px) {
@@ -304,6 +314,11 @@
         display: none;
     }
     .navbar-left, .navbar-right{
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .modal{
+        width: 650px;
+        height: 350px;
     }
 }

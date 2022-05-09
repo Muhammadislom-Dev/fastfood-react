@@ -31,3 +31,48 @@ img{
 .swiper{
     margin-top: 40px;
 }
+
+@media(max-width:1160px){
+    .container-fluid{
+        width: 100%;
+    }
+}
+@media(max-width:1020px){
+    .container-fluid{
+        width: 100%;
+    }
+}
+@media(max-width:920px){
+    .container-fluid{
+        width: 100%;
+    }
+}
+
+@media(max-width:820px){
+    .container-fluid{
+        width: 100%;
+    }
+    .swiper-pic{
+        width: 100%;
+    }
+}
+
+@media(max-width:720px){
+    .container-fluid{
+        width: 100%;
+    }
+
+    .mySwiper{
+        display:none;
+    }
+}
+
+@media(max-width:620px){
+    .container-fluid{
+        width: 100%;
+    }
+
+    .mySwiper{
+        display:none;
+    }
+}
