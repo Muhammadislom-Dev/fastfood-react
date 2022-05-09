@@ -68,7 +68,19 @@ h2{
         width: 600px;
     }
     .company-img{
-        height: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:620px) {
+    
+    .container{
+        width: 500px;
+    }
+    .company-page{
+        margin: 0;
+        padding: 10px;
     }
 }
 
@@ -78,3 +90,11 @@ h2{
         width: 400px;
     }
 }
+
+@media (max-width:420px) {
+    
+    .container{
+        width: 300px;
+    }
+}
+

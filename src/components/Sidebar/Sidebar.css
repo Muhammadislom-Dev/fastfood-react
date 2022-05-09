@@ -98,3 +98,15 @@
         margin: 3px;
     }
 }
+
+@media (max-width:420px) {
+    
+    .container{
+        width: 300px;
+    }
+
+    .sidebar-link{
+        margin: 0;
+        padding: 10px 13px;
+    }
+}
