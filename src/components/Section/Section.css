@@ -95,3 +95,11 @@
         width: 600px;
     }
 }
+
+@media (max-width:620px) {
+    
+
+    .container{
+        width: 500px;
+    }
+}

@@ -70,10 +70,13 @@
     }
 }
 
-@media (max-width:720px) {
-    
+@media (max-width:720px) {  
 
     .container{
-        width: 650px;
+        width: 600px;
+    }
+
+    .sidebar-link{
+        padding: 10px 15px;
     }
 }
