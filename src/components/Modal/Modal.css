@@ -35,3 +35,10 @@
     animation-iteration-count: 1;
     animation-duration: 0.5s;
 }
+
+@media (max-width:820px) {
+    
+    .container{
+        width: 700px;
+    }
+}
