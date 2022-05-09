@@ -144,8 +144,22 @@ h4{
     .container{
         width: 400px;
     }
+    .footer-list{
+        padding: 10px 0;
+        width: 100%;
+    }
 
-    .footer-items{
-        width: 250px;
+    .footer-page, .footer-box{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:420px) {
+    
+    .container{
+        width: 300px;
     }
 }

@@ -157,3 +157,18 @@
         max-height: 400px;
     }
 }
+
+@media (max-width:420px) {
+    
+    .container{
+        width: 300px;
+    }
+    .foods-img{
+        width: 248px;
+        height: 150px;
+    }
+
+    .foods-list{
+        width: 90%;
+    }
+}
