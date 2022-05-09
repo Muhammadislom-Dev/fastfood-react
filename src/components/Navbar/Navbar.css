@@ -121,7 +121,7 @@
 }
 
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 6px;
   }
   
@@ -133,7 +133,7 @@
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #888;
-  }
+  } */
   
   /* Handle on hover */
   /* ::-webkit-scrollbar-thumb:hover {
@@ -320,5 +320,29 @@
     .modal{
         width: 650px;
         height: 350px;
+    }
+}
+
+@media (max-width:620px) {
+    
+    .container{
+        width: 500px;
+    }
+
+    .modal{
+        width: 500px;
+        height: 310px;
+    }
+
+    .modal-img{
+        width: 50px;
+        height: 50px;
+    }
+    .modal-title{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .modal-list{
+        width: 440px;
     }
 }
