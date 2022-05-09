@@ -10,7 +10,7 @@ const Homepage = () =>{
     return(
         <div className="homepage">      
             <SwiperFood />
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Switch> 
                 <Route path="/:dishtype">
                     <HomeContent />

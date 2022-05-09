@@ -37,4 +37,16 @@
     .container{
         width: 600px;
     }
+
+    .homecontent .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:620px) {
+    
+    .container{
+        width: 500px;
+    }
 }
